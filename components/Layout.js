@@ -50,7 +50,7 @@ export default function Layout({children, page}) {
                     <Image src="/main.jpg" alt="footer-pic" width="600" height="15" className="rounded-3xl object-cover" quality={100}></Image>
                 </div>
             </header>
-            <main className="pt-4 mx-20">
+            <main className="pt-4 mx-10 md:mx-20">
                 {children}
             </main>
             <footer className="p-10">
