@@ -1,0 +1,5 @@
+112e9d6998678fa78aeef6429a7ff807
+
+"https://api.nomics.com/v1/currencies/ticker?key=112e9d6998678fa78aeef6429a7ff807&ids=BTC,ETH,XRP&interval=1d,30d,365d&convert=EUR&per-page=100&page=1"
+
+curl "https://api.nomics.com/v1/currencies?key=112e9d6998678fa78aeef6429a7ff807&ids=BTC,ETH,XRP&attributes=id,name,logo_url,description,twitter_url,reddit_url"
