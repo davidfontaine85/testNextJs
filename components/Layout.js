@@ -14,7 +14,7 @@ export default function Layout({children, page}) {
                     <Image src="/main.jpg" alt="footer-pic" width="600" height="15" className="rounded-3xl object-cover mt-2" quality={100}></Image>
                 </div>
                 <h1 className="text-5xl mb-2">CRYPTO CLEM</h1>
-                <div className="inline-grid grid-cols-6 gap-x-10 p-4 mb-2">
+                <div className="block md:inline-grid grid-cols-6 gap-x-10 p-4 mb-2">
                     <Link href="/">
                         <button className="bg-blue-200 p-3 m-2 rounded-3xl hover:shadow-md border-2 border-blue-300">
                             Accueil

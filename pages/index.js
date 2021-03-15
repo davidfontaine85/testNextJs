@@ -2,14 +2,13 @@ import Link from "next/link";
 import Layout from "../components/Layout";
 
 export default function Home({ res, dollar }) {
-  console.log(dollar);
   return (
     <div>
       <Layout page='Crypto Watch - Accueil'>
-        <ul className="flex justify-around py-10 mdpy-2">
+        <ul className="flex justify-between flex-col md:flex-row py-10 md:py-2 px-2">
           {res.map((crypto, index) => {
             return (
-              <li key={index} className="relative hover:shadow-md p-8 border border-blue-300 rounded-3xl bg-blue-100 md:w-auto flex-1 mx-5">
+              <li key={index} className="relative hover:shadow-md p-8 border border-blue-300 rounded-3xl bg-blue-100 md:w-auto flex-1 md:mx-5 my-2 md:my-0">
               <Link href={`/${crypto.id}`}>
                 <a className="rounded-md">
                   <div className="text-center">
